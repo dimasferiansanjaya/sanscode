@@ -1,0 +1,80 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Home",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slug": "pages-home"
+    },
+    {
+      "url": "page-2",
+      "icon": "menu-icon tf-icons ti ti-file",
+      "name": "Page 2",
+      "slug": "pages-page-2"
+    },
+    {
+      "url": "pages/misc-error",
+      "name": "Error",
+      "icon": "menu-icon tf-icons ti ti-alert-triangle",
+      "slug": "pages-misc-error",
+      "target": "_blank"
+    },
+    {
+      "url": "auth/login-basic",
+      "name": "Login",
+      "icon": "menu-icon tf-icons ti ti-login",
+      "slug": "auth-login-basic",
+      "target": "_blank"
+    },
+    {
+      "url": "auth/register-basic",
+      "name": "Register",
+      "icon": "menu-icon tf-icons ti ti-user",
+      "slug": "auth-register-basic",
+      "target": "_blank"
+    },
+    {
+      "menuHeader": "Scheduler"
+    },
+    {
+      "name": "Event Reminder",
+      "icon": "menu-icon tf-icons ti ti-calendar",
+      "slug": "schedule.create",
+      "badge": [
+        "primary",
+        "3"
+      ],
+      "submenu": [
+        {
+          "url": "/schedule/create",
+          "name": "Create new",
+          "slug": "schedule.create"
+        },
+        {
+          "url": "/schedule/list",
+          "name": "List",
+          "slug": "schedule.list"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Human Resources"
+    },
+    {
+      "url": "/human-resources/departments",
+      "icon": "menu-icon tf-icons ti ti-brand-adobe",
+      "name": "Department",
+      "slug": "departments",
+      "role": [],
+      "permission": []
+    },
+    {
+      "url": "/human-resources/employees",
+      "icon": "menu-icon tf-icons ti ti-users",
+      "name": "Employee",
+      "slug": "employees",
+      "role": [],
+      "permission": []
+    }
+  ]
+}
